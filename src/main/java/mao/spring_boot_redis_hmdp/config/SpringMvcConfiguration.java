@@ -1,10 +1,14 @@
 package mao.spring_boot_redis_hmdp.config;
 
 import mao.spring_boot_redis_hmdp.interceptor.LoginInterceptor;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistration;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
+
+import javax.annotation.Resource;
 
 /**
  * Project name(项目名称)：spring_boot_redis_hmdp_login_based_on_session
@@ -22,11 +26,14 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 @Configuration
 public class SpringMvcConfiguration implements WebMvcConfigurer
 {
+    @Resource
+    private StringRedisTemplate stringRedisTemplate;
+
     @Override
     public void addInterceptors(InterceptorRegistry registry)
     {
         //添加拦截器
-        InterceptorRegistration interceptorRegistration = registry.addInterceptor(new LoginInterceptor());
+        InterceptorRegistration interceptorRegistration = registry.addInterceptor(new LoginInterceptor(stringRedisTemplate));
         // 添加配置可以放行哪些路径
         interceptorRegistration.excludePathPatterns(
                 "/shop/**",
