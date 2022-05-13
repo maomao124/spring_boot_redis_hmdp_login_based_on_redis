@@ -1,2 +1,13 @@
 2022-05-13 21:32:10.335  INFO 9900 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
 2022-05-13 21:32:10.338  INFO 9900 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-05-13 21:32:45.502  INFO 16544 --- [main] disHmdpLoginBasedOnRedisApplicationTests : Starting SpringBootRedisHmdpLoginBasedOnRedisApplicationTests using Java 16.0.2 on mao with PID 16544 (started by mao in H:\程序\大三下期\spring_boot_redis_hmdp_基于redis实现短信登录)
+2022-05-13 21:32:45.503 DEBUG 16544 --- [main] disHmdpLoginBasedOnRedisApplicationTests : Running with Spring Boot v2.6.7, Spring v5.3.19
+2022-05-13 21:32:45.504  INFO 16544 --- [main] disHmdpLoginBasedOnRedisApplicationTests : The following 1 profile is active: "dev"
+2022-05-13 21:32:46.382  INFO 16544 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-13 21:32:46.384  INFO 16544 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-05-13 21:32:46.421  INFO 16544 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16 ms. Found 0 Redis repository interfaces.
+2022-05-13 21:32:47.314  INFO 16544 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-05-13 21:32:47.591  INFO 16544 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-05-13 21:32:50.033  INFO 16544 --- [main] disHmdpLoginBasedOnRedisApplicationTests : Started SpringBootRedisHmdpLoginBasedOnRedisApplicationTests in 4.938 seconds (JVM running for 5.841)
+2022-05-13 21:32:50.625  INFO 16544 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-05-13 21:32:50.627  INFO 16544 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed

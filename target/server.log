@@ -1,0 +1,15 @@
+2022-05-13 21:33:32.845  INFO 14400 --- [main] ootRedisHmdpLoginBasedOnRedisApplication : Starting SpringBootRedisHmdpLoginBasedOnRedisApplication v0.0.1-SNAPSHOT using Java 16.0.2 on mao with PID 14400 (H:\程序\大三下期\spring_boot_redis_hmdp_基于redis实现短信登录\target\spring_boot_redis_hmdp-0.0.1-SNAPSHOT.jar started by mao in H:\程序\大三下期\spring_boot_redis_hmdp_基于redis实现短信登录\target)
+2022-05-13 21:33:32.848 DEBUG 14400 --- [main] ootRedisHmdpLoginBasedOnRedisApplication : Running with Spring Boot v2.6.7, Spring v5.3.19
+2022-05-13 21:33:32.849  INFO 14400 --- [main] ootRedisHmdpLoginBasedOnRedisApplication : The following 1 profile is active: "dev"
+2022-05-13 21:33:33.683  INFO 14400 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-13 21:33:33.691  INFO 14400 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-05-13 21:33:33.729  INFO 14400 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+2022-05-13 21:33:34.599  INFO 14400 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-05-13 21:33:34.611  INFO 14400 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-13 21:33:34.612  INFO 14400 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-13 21:33:34.690  INFO 14400 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-13 21:33:34.691  INFO 14400 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1775 ms
+2022-05-13 21:33:35.126  INFO 14400 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-05-13 21:33:35.382  INFO 14400 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-05-13 21:33:37.070  INFO 14400 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2022-05-13 21:33:37.088  INFO 14400 --- [main] ootRedisHmdpLoginBasedOnRedisApplication : Started SpringBootRedisHmdpLoginBasedOnRedisApplication in 4.895 seconds (JVM running for 5.38)
